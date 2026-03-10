@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mp Hustle | Official Author Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #c5a059;
+            --dark: #1a1a1a;
+            --light: #f9f9f9;
+        }
+        body { margin: 0; font-family: 'Inter', sans-serif; background: var(--light); color: var(--dark); line-height: 1.6; }
+        
+        /* Hero Section */
+        .hero { height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('hero-bg.jpg') center/cover; color: white; text-align: center; padding: 20px; }
+        .hero-content h1 { font-family: 'Playfair Display', serif; font-size: 4rem; margin-bottom: 10px; }
+        .hero-content p { font-size: 1.2rem; margin-bottom: 30px; letter-spacing: 2px; text-transform: uppercase; }
+        .cta-btn { background: var(--gold); color: white; padding: 15px 40px; text-decoration: none; font-weight: bold; border-radius: 5px; transition: 0.3s; }
+        .cta-btn:hover { background: #b48e47; transform: translateY(-3px); }
+
+        /* About Section */
+        .about { padding: 100px 10%; display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
+        .about img { width: 100%; border-radius: 10px; box-shadow: 20px 20px 0px var(--gold); }
+        .about h2 { font-family: 'Playfair Display', serif; font-size: 2.5rem; }
+
+        /* Preview Section */
+        .preview { background: var(--dark); color: white; padding: 100px 10%; text-align: center; }
+        .preview blockquote { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-style: italic; max-width: 800px; margin: 0 auto; }
+        
+        footer { padding: 50px; text-align: center; font-size: 0.9rem; opacity: 0.6; }
+        @media (max-width: 768px) { .about { grid-template-columns: 1fr; } .hero-content h1 { font-size: 2.5rem; } }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Sorry Mom</h1>
+            <p>A Journey from the Mask to the Light</p>
+            <a href="#" class="cta-btn">BUY ON AMAZON</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <img src="https://i.imgur.com/your-photo-link.jpg" alt="Mp Hustle">
+        <div>
+            <h2>About Mp Hustle</h2>
+            <p>Mp Hustle is a voice for the resilient. After surviving a transformative battle with depression and the loss of his anchor, he has dedicated his life to stripping away the "Mask" and showing others that darkness is only temporary.</p>
+            <p>His debut memoir, <i>Sorry Mom</i>, serves as both a tribute to his late mother and a manifesto for youth mental health.</p>
+        </div>
+    </section>
+
+    <section class="preview">
+        <blockquote>
+            "Depression is a liar that tells you that you’ve reached the last page, but it’s actually just a very long, very difficult chapter."
+        </blockquote>
+        <p style="margin-top:20px; color: var(--gold);">— From Chapter 4: Rock Bottom</p>
+    </section>
+
+    <footer>
+        &copy; 2024 Mp Hustle. Designed by [Your Name].
+    </footer>
+
+</body>
+</html>
